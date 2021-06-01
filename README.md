@@ -46,7 +46,11 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+The app is deployed using Github Pages.
+* `ember build -prod`
+* `rm -rf docs`
+* `cp -R dist docs`
+* Commit and push to main
 
 ## Further Reading / Useful Links
 
