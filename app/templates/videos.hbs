@@ -1,1 +1,14 @@
-{{outlet}}
+<main role="main">
+  <article>
+    {{#each @model as |video|}}
+      <section class="video">
+        <h2>{{video.title}}</h2>
+        <h3>{{video.subtitle}}</h3>
+
+        <iframe id="ytplayer" type="text/html" width="640" height="360"
+          src={{video.url}}
+          frameborder="0"></iframe>
+      </section>
+    {{/each}}
+  </article>
+</main>

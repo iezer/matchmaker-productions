@@ -1,2 +1,32 @@
-@import 'tailwind.css';
+body {
+  font-family: Georgia;
+}
 
+p {
+  font-size: 20px;
+}
+
+.application {
+  margin-top: 24px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+}
+
+.outlet {
+  padding: 50px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.video,
+.media-page article {
+  margin-bottom: 50px;
+}
+
+.past-productions img {
+  width: 725px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
