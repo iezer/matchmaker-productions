@@ -4,7 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'matchmaker',
     environment,
-    rootURL: '/matchmaker-productions/',
+    rootURL: '/',
     locationType: 'hash',
     EmberENV: {
       FEATURES: {
