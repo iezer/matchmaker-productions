@@ -47,6 +47,9 @@ Make use of the many generators for code, try `ember help generate` for more det
 ### Deploying
 
 The app is deployed using Github Pages.
+
+Run `npm run release` to release which does the following 3 steps, then commit and push to main.
+
 * `ember build -prod`
 * `rm -rf docs`
 * `cp -R dist docs`
