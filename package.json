@@ -16,7 +16,7 @@
     "lint:js": "eslint .",
     "start": "ember serve",
     "test": "ember test",
-    "release": "ember build -prod && rm -rf docs && cp -R dist docs"
+    "release": "ember build -prod && rm -rf docs && cp -R dist docs && git checkout docs/CNAME"
   },
   "devDependencies": {
     "@ember/optional-features": "^1.1.0",
