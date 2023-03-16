@@ -1,33 +1,45 @@
 <div class="application">
-<h1>Matchmaker Productions</h1>
+  <h1>Matchmaker Theatre Productions</h1>
 
-<BsNav
-  @type="tabs"
-  @justified={{true}}
-  @stacked={{false}}
-  @fill={{false}} as |nav|
->
-  <nav.item>
-    <nav.link-to @route="index">Edinburgh Fringe 2022</nav.link-to>
-  </nav.item>
-   <nav.item>
-    <nav.link-to @route="about">About</nav.link-to>
-  </nav.item>
-  <nav.item>
-    <nav.link-to @route="videos">Videos and Photos</nav.link-to>
-  </nav.item>
-  <nav.item>
-    <nav.link-to @route="media">Media</nav.link-to>
-  </nav.item>
-  <nav.item>
-    <nav.link-to @route="past">Past Productions</nav.link-to>
-  </nav.item>
-  <nav.item>
-    <nav.link-to @route="contact">Contact</nav.link-to>
-  </nav.item>
-</BsNav>
+  <BsNav
+    @type="tabs"
+    @justified={{true}}
+    @stacked={{false}}
+    @fill={{false}} as |nav|
+  >
+    <nav.item>
+      <nav.link-to @route="index">The Masks of Oscar Wilde</nav.link-to>
+    </nav.item>
+    <nav.item>
+      <nav.link-to @route="about">About</nav.link-to>
+    </nav.item>
+    <nav.item>
+      <nav.link-to @route="videos">Videos and Photos</nav.link-to>
+    </nav.item>
+    <nav.item>
+      <nav.link-to @route="media">Media</nav.link-to>
+    </nav.item>
+    <nav.item>
+      <nav.link-to @route="past">Past Productions</nav.link-to>
+    </nav.item>
+    <nav.item>
+      <nav.link-to @route="contact">Contact</nav.link-to>
+    </nav.item>
+  </BsNav>
 
-<div class="outlet">
-  {{outlet}}
+  <div class="outlet">
+    {{outlet}}
+  </div>
+
+  <div class="footer">
+    <a href="https://twitter.com/MatchmakerTP">
+      <img src="assets/icons/icons8-twitter.svg">
+    </a>
+    <a href="https://www.instagram.com/matchmakertp/">
+      <img src="assets/icons/icons8-instagram.svg">
+    </a>
+    <a href="https://www.tiktok.com/@matchmakertp">
+      <img src="assets/icons/icons8-tiktok.svg">
+    </a>
   </div>
 </div>
