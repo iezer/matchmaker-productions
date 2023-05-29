@@ -8,6 +8,7 @@ export default class Router extends EmberRouter {
 
 Router.map(function() {
   this.route('about');
+  this.route('masks');
   this.route('videos');
   this.route('past');
   this.route('media');
