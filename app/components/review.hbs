@@ -1,0 +1,18 @@
+<div class="review">
+
+  <div class="review__source">
+    {{#if @review.href}}
+      <a href={{@review.href}} target="_blank">
+        {{@review.source}}
+      </a>
+    {{else}}
+      {{@review.source}}
+    {{/if}}  
+    </div>  
+
+  <div class="review__rating">{{@review.rating}}</div>  
+
+  <div class="review__quote">{{@review.quote}}</div>  
+
+  
+  </div>

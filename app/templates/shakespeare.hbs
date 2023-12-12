@@ -15,6 +15,13 @@
       </div>
     </section>
 
+ 
+    <div class="reviews">
+      {{#each @model as |r|}}
+        <Review @review={{r}} />
+      {{/each}}
+    </div>
+
     <h1>Starring&hellip;</h1>
 
     <section class="layout">
