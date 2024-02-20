@@ -49,6 +49,10 @@ $max-width: 22rem;
         flex-basis: $min-width; // 5
         flex-grow: 99999;
       }
+
+      &--small {
+        max-width: 10rem;
+      }
     }
   }
 }
